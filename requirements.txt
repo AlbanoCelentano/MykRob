@@ -1,3 +1,4 @@
+numpy
 httpx
 opencv-python
 pysocks
