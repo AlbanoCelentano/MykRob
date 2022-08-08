@@ -1,10 +1,10 @@
 # Temp main to people who whant to work on it
 print("[ ! ] Loading Modules...\n")
 import os
-try: os.system("pip install -r ./data/requirements.txt")
+try: os.system("pip install -r ./requirements.txt")
 except: pass
-try: os.system("py -m pip install -r ./data/requirements.txt")
-except: os.system("python -m pip install -r ./data/requirements.txt")
+try: os.system("py -m pip install -r ./requirements.txt")
+except: os.system("python -m pip install -r ./requirements.txt")
 
 from modules.session import HttpSession
 from modules.discord import DiscordApi, DiscordWs
